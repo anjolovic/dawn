@@ -1813,6 +1813,47 @@
               "label": "Třetí nadpis"
             }
           }
+        },
+        "sku": {
+          "name": "SKU",
+          "settings": {
+            "text_style": {
+              "label": "Textový styl",
+              "options__1": {
+                "label": "Hlavní část"
+              },
+              "options__2": {
+                "label": "Podtitul"
+              },
+              "options__3": {
+                "label": "Velká písmena"
+              }
+            }
+          }
+        },
+        "inventory": {
+          "name": "Stav skladových zásob",
+          "settings": {
+            "text_style": {
+              "label": "Textový styl",
+              "options__1": {
+                "label": "Hlavní část"
+              },
+              "options__2": {
+                "label": "Podtitul"
+              },
+              "options__3": {
+                "label": "Velká písmena"
+              }
+            },
+            "inventory_threshold": {
+              "label": "Práh docházejících skladových zásob",
+              "info": "Zvolte 0, pokud chcete vždy zobrazoval stav Skladem, když je zboží k dispozici."
+            },
+            "show_inventory_quantity": {
+              "label": "Zobrazovat objem skladových zásob"
+            }
+          }
         }
       },
       "settings": {
@@ -1845,7 +1886,7 @@
           }
         },
         "media_size": {
-          "label": "Velikost multimédií v počítači",
+          "label": "Šířka multimédií v počítači",
           "info": "Multimédia se automaticky optimalizují pro mobilní prostředí.",
           "options__1": {
             "label": "Malá"
@@ -1877,6 +1918,31 @@
           },
           "options__2": {
             "label": "Vpravo"
+          }
+        },
+        "image_zoom": {
+          "label": "Zvětšení obrázků",
+          "info": "Klikněte a podržte kurzor nad výchozími možnostmi. Tím otevřete Lightbox na mobilním zařízení.",
+          "options__1": {
+            "label": "Otevřít Lightbox"
+          },
+          "options__2": {
+            "label": "Kliknout a podržet kurzor"
+          },
+          "options__3": {
+            "label": "Bez zvětšení"
+          }
+        },
+        "constrain_to_viewport": {
+          "label": "Zmenšit multimédia na výšku obrazovky"
+        },
+        "media_fit": {
+          "label": "Přizpůsobení multimédií",
+          "options__1": {
+            "label": "Originál"
+          },
+          "options__2": {
+            "label": "Výplň"
           }
         }
       }
@@ -2372,6 +2438,23 @@
           "settings": {
             "paragraph": {
               "content": "Pokud chcete zobrazovat hodnocení, přidejte si aplikaci pro hodnocení produktů. [Zjistit více](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-product-rating)"
+            }
+          }
+        },
+        "sku": {
+          "name": "SKU",
+          "settings": {
+            "text_style": {
+              "label": "Textový styl",
+              "options__1": {
+                "label": "Hlavní část"
+              },
+              "options__2": {
+                "label": "Podtitul"
+              },
+              "options__3": {
+                "label": "Velká písmena"
+              }
             }
           }
         }
